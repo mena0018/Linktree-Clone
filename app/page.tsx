@@ -19,7 +19,7 @@ export default function Home() {
   ));
 
   return (
-    <main className='flex flex-col justify-center items-center pt-16 px-8'>
+    <main className='h-full flex flex-col items-center pt-16 px-8'>
       <Image
         src={data.avatar}
         alt='avatar'
@@ -29,7 +29,7 @@ export default function Home() {
         className='aspect-square object-cover rounded-full'
       />
 
-      <h1 className='font-bold text-white tracking-wide text-xl mt-4 mb-8'>{data.name}</h1>
+      <h1 className='font-bold text-white tracking-wide text-2xl mt-4 mb-8'>{data.name}</h1>
       {links}
       <div className='my-8 flex gap-4'>{socials}</div>
     </main>
