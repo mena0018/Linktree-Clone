@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Rabie Menad • Link</title>
+      <title>Rabie Menad • Links</title>
       <meta
         name='description'
         content='Share your Linktree from your Instagram, Github, Twitter and other bios...'
