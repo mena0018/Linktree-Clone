@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 import Logo from '/public/images/profile/logo.webp';
 import Avatar from '/public/images/profile/avatar.png';
-import Profil from '/public/images/profile/profil.webp';
+import Profil from '/public/images/profile/profil_black.jpg';
 
 import Linkedin from '/public/images/icon/linkedin.svg';
 import Instagram from '/public/images/icon/instagram.svg';

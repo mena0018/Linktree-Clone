@@ -20,14 +20,7 @@ export default function Home() {
 
   return (
     <main className='h-full flex flex-col items-center pt-16 px-8'>
-      <Image
-        src={data.avatar}
-        alt='avatar'
-        width={96}
-        height={96}
-        priority
-        className='aspect-square object-cover rounded-full'
-      />
+      <Image src={data.avatar} alt='avatar' priority className='w-24 h-24 rounded-full' />
 
       <h1 className='font-bold text-white tracking-wide text-2xl mt-4 mb-8'>{data.name}</h1>
       {links}
