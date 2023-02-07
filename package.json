@@ -6,8 +6,8 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "test": "pnpm exec playwright test",
-    "make:test": "pnpm exec playwright codegen"
+    "test": "npm exec playwright test",
+    "make:test": "npm exec playwright codegen"
   },
   "dependencies": {
     "next": "latest",
