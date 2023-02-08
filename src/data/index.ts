@@ -4,8 +4,8 @@ import Logo from '/public/images/profile/logo.webp';
 import Avatar from '/public/images/profile/avatar.png';
 import Profil from '/public/images/profile/profil_black.jpg';
 
-import Linkedin from '/public/images/icon/linkedin.svg';
-import Instagram from '/public/images/icon/instagram.svg';
+import LinkedIn from '/public/images/icon/linkedin.svg';
+import Twitter from '/public/images/icon/twitter.svg';
 import Discord from '/public/images/icon/discord.svg';
 import Github from '/public/images/icon/github.svg';
 
@@ -21,23 +21,23 @@ export const data = {
     },
     {
       id: uuidv4(),
-      title: 'Linkedin',
+      title: 'LinkedIn',
       url: 'https://www.linkedin.com/in/rabie-menad/',
-      image: Linkedin,
+      image: LinkedIn,
     },
     {
       id: uuidv4(),
-      title: 'FrontEndMentor',
-      url: 'https://www.frontendmentor.io/profile/mena0018',
+      title: 'Profil freelance',
+      url: 'https://www.malt.fr/profile/rabiemenad',
       image: Avatar,
     },
   ],
   socials: [
     {
       id: uuidv4(),
-      title: 'Instagram',
-      url: 'https://instagram.com/crocop_09',
-      image: Instagram,
+      title: 'Twitter',
+      url: 'https://twitter.com/crocop_09',
+      image: Twitter,
     },
     {
       id: uuidv4(),
