@@ -6,7 +6,7 @@ test.describe('Go to the starting url before each test', () => {
   test('has title', async ({ page }) => await expect(page).toHaveTitle(/Rabie Menad • Links/));
 
   test('Check user informations', async ({ page }) => {
-    await expect(page.getByRole('heading', { name: 'Menad Rabie' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Rabie Menad' })).toBeVisible();
     await expect(page.getByRole('img', { name: 'avatar' })).toBeVisible();
   });
 

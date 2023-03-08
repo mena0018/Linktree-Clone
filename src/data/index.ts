@@ -10,7 +10,7 @@ import Discord from '/public/images/icon/discord.svg';
 import Github from '/public/images/icon/github.svg';
 
 export const data = {
-  name: 'Menad Rabie',
+  name: 'Rabie Menad',
   avatar: Profil,
   links: [
     {
