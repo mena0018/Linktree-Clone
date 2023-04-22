@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Go to the starting url before each test', () => {
-  test.beforeEach(async ({ page }) => await page.goto('https://rabie-menad-links.vercel.app/'));
+  test.beforeEach(async ({ page }) => await page.goto('https://rabiemenad.fr'));
 
   test('has title', async ({ page }) => await expect(page).toHaveTitle(/Rabie Menad • Links/));
 
@@ -11,9 +11,9 @@ test.describe('Go to the starting url before each test', () => {
   });
 
   test('Check user links', async ({ page }) => {
-    await expect(page.getByRole('heading', { level: 2, name: 'Site personnel' })).toBeVisible();
+    await expect(page.getByRole('heading', { level: 2, name: 'Portfolio' })).toBeVisible();
     await expect(page.getByRole('heading', { level: 2, name: 'LinkedIn' })).toBeVisible();
-    await expect(page.getByRole('heading', { level: 2, name: 'Profil freelance' })).toBeVisible();
+    await expect(page.getByRole('heading', { level: 2, name: 'Freelancing' })).toBeVisible();
   });
 
   test('Check footer images', async ({ page }) => {

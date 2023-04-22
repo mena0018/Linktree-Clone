@@ -1,3 +1,4 @@
+import { Data } from '@/models';
 import { v4 as uuidv4 } from 'uuid';
 
 import Logo from '/public/images/profile/logo.webp';
@@ -9,13 +10,13 @@ import Twitter from '/public/images/icon/twitter.svg';
 import Discord from '/public/images/icon/discord.svg';
 import Github from '/public/images/icon/github.svg';
 
-export const data = {
+export const data: Data = {
   name: 'Rabie Menad',
   avatar: Profil,
   links: [
     {
       id: uuidv4(),
-      title: 'Site personnel',
+      title: 'Portfolio',
       url: 'https://rabie-menad.vercel.app',
       image: Logo,
     },
@@ -27,7 +28,7 @@ export const data = {
     },
     {
       id: uuidv4(),
-      title: 'Profil freelance',
+      title: 'Freelancing',
       url: 'https://www.malt.fr/profile/rabiemenad',
       image: Avatar,
     },
@@ -35,15 +36,15 @@ export const data = {
   socials: [
     {
       id: uuidv4(),
-      title: 'Twitter',
-      url: 'https://twitter.com/crocop_09',
-      image: Twitter,
-    },
-    {
-      id: uuidv4(),
       title: 'Github',
       url: 'https://github.com/mena0018',
       image: Github,
+    },
+    {
+      id: uuidv4(),
+      title: 'Twitter',
+      url: 'https://twitter.com/veille_teck',
+      image: Twitter,
     },
     {
       id: uuidv4(),
