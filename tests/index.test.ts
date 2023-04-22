@@ -11,9 +11,9 @@ test.describe('Go to the starting url before each test', () => {
   });
 
   test('Check user links', async ({ page }) => {
-    await expect(page.getByRole('heading', { level: 2, name: 'Site personnel' })).toBeVisible();
+    await expect(page.getByRole('heading', { level: 2, name: 'Portfolio' })).toBeVisible();
     await expect(page.getByRole('heading', { level: 2, name: 'LinkedIn' })).toBeVisible();
-    await expect(page.getByRole('heading', { level: 2, name: 'Profil freelance' })).toBeVisible();
+    await expect(page.getByRole('heading', { level: 2, name: 'Freelancing' })).toBeVisible();
   });
 
   test('Check footer images', async ({ page }) => {
