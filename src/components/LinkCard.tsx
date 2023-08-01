@@ -1,7 +1,8 @@
-import { Link } from '@/types/index';
+import { FC } from 'react';
+import { Link } from '@/models/index';
 import Image from 'next/image';
 
-export default function LinkCard({ image, url, title }: Omit<Link, 'id'>) {
+const LinkCard: FC<Omit<Link, 'id'>> = ({ image, url, title }) => {
   return (
     <a
       href={url}
@@ -13,4 +14,6 @@ export default function LinkCard({ image, url, title }: Omit<Link, 'id'>) {
       <h2 className='text-slate-700 font-semibold w-full flex justify-center'>{title}</h2>
     </a>
   );
-}
+};
+
+export default LinkCard;

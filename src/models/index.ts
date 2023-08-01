@@ -8,7 +8,7 @@ export type Data = {
 };
 
 export type Link = {
-  id: number;
+  id: string;
   title: string;
   url: string;
   image: StaticImageData;

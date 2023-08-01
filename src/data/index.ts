@@ -1,3 +1,4 @@
+import { Data } from '@/models';
 import { v4 as uuidv4 } from 'uuid';
 
 import Logo from '/public/images/profile/logo.webp';
@@ -9,7 +10,7 @@ import Twitter from '/public/images/icon/twitter.svg';
 import Discord from '/public/images/icon/discord.svg';
 import Github from '/public/images/icon/github.svg';
 
-export const data = {
+export const data: Data = {
   name: 'Rabie Menad',
   avatar: Profil,
   links: [
